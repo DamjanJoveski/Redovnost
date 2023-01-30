@@ -8,6 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ToggleButton;
+import javafx.scene.image.Image;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
@@ -42,9 +43,9 @@ public class Redovnost extends Application {      //Programa za vodenje evidenci
         list.add(kamelija);
         list.add(simona);
 
+        stage.getIcons().add(new Image("D:\\Java\\Redovnost\\Redovnost\\src\\main\\resources\\com\\example\\redovnost\\icon.jpg"));
 
         Label info = new Label();
-
 
 
         BorderPane root = new BorderPane();
