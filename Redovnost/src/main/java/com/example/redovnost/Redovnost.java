@@ -20,7 +20,7 @@ import java.util.ArrayList;
 
 import static com.example.redovnost.Writer.*;
 
-public class Redovnost extends Application {
+public class Redovnost extends Application {      //Programa za vodenje evidencija na redovnost na vrabotenite vo Schatze Bitola 2
 
     Vraboten damjan = new Vraboten("Дамјан","Јовески",0,false);
     Vraboten lili = new Vraboten("Лилиен","Домазетоски",0,false);
@@ -28,6 +28,8 @@ public class Redovnost extends Application {
     Vraboten kamelija = new Vraboten("Камелија","Србиновска",0,false);
 
     ArrayList<Vraboten> list = new ArrayList<Vraboten>();
+
+    ArrayList<ToggleButton> buttonArrayList = new ArrayList<ToggleButton>();
 
     boolean otvoreno=false;
 
@@ -39,6 +41,7 @@ public class Redovnost extends Application {
         list.add(lili);
         list.add(kamelija);
         list.add(simona);
+
 
         Label info = new Label();
 
@@ -168,6 +171,7 @@ public class Redovnost extends Application {
         vraboten4.setTextFill(Paint.valueOf("#7f5af0"));
         vraboten4.setBackground(new Background(new BackgroundFill(Paint.valueOf("#16161a"), CornerRadii.EMPTY, Insets.EMPTY)));
         vraboten4.setBorder(new Border(new BorderStroke(Paint.valueOf("#7f5af0"), BorderStrokeStyle.SOLID, CornerRadii.EMPTY, new BorderWidths(2))));
+
 
 
 
