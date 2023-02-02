@@ -10,7 +10,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 public class Writer {
-    static BufferedWriter writer;
+    static BufferedWriter writer;       //Trebashe JavaScript da naucham namesto ovie gluposti
 
     static {
         try {
