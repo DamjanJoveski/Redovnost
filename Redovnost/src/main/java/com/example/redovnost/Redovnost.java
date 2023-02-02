@@ -62,6 +62,8 @@ public class Redovnost extends Application {      //Programa za vodenje evidenci
         root.setTop(hbox);
         root.setStyle("-fx-background-color: #16161a");
 
+        //posleden pat javafx sho kje koristam </3
+
 
         ToggleButton vraboten1 = new ToggleButton(damjan.ime);
         vraboten1.setOnAction(e -> {
