@@ -3,11 +3,10 @@ package com.example.redovnost;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
+
 
 public class Writer {
     static BufferedWriter writer;       //Trebashe JavaScript da naucham namesto ovie gluposti

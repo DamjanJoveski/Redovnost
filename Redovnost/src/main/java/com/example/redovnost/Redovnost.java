@@ -30,9 +30,7 @@ public class Redovnost extends Application {      //Programa za vodenje evidenci
 
     ArrayList<Vraboten> list = new ArrayList<Vraboten>();
 
-    ArrayList<ToggleButton> buttonArrayList = new ArrayList<ToggleButton>();
-
-    boolean otvoreno=false;
+    boolean otvoreno=false;                       //If you are reading this, please link an external css file :(
 
 
     @Override
@@ -44,8 +42,6 @@ public class Redovnost extends Application {      //Programa za vodenje evidenci
         list.add(simona);
 
         stage.getIcons().add(new Image("D:\\Java\\Redovnost\\Redovnost\\src\\main\\resources\\com\\example\\redovnost\\icon.jpg"));
-
-        Label info = new Label();
 
 
         BorderPane root = new BorderPane();
